@@ -10,14 +10,14 @@ You can sort alphabetically if you'd like, you can save the file, and you can ma
 * requests
 
 # Usage
-usage: crt-wordlist.py [-h] -d DOMAINS [-r] [-o OUTPUT] [-q] [-s]
-
-optional arguments:
-  -h, --help            show this help message and exit
-  -d DOMAINS, --domains DOMAINS
-                        Comma Separated List of domains to check
-  -r, --sort            Sorts output alphabetically
-  -o OUTPUT, --output OUTPUT
-                        Write to a findings to a file.
-  -q, --quiet           Suppress output other than sites being checked.
-  -s, --silent          Suppress all output
+    usage: crt-wordlist.py [-h] -d DOMAINS [-r] [-o OUTPUT] [-q] [-s]
+    
+    optional arguments:
+      -h, --help            show this help message and exit
+      -d DOMAINS, --domains DOMAINS
+                            Comma Separated List of domains to check
+      -r, --sort            Sorts output alphabetically
+      -o OUTPUT, --output OUTPUT
+                            Write to a findings to a file.
+      -q, --quiet           Suppress output other than sites being checked.
+      -s, --silent          Suppress all output
